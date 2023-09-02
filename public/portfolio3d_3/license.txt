@@ -1,0 +1,11 @@
+Model Information:
+* title:	Icosahedral Abstract Figure
+* source:	https://sketchfab.com/3d-models/icosahedral-abstract-figure-16fa6fe9115f461289a3c5e8b7c7f64a
+* author:	Emilio.Gallo (https://sketchfab.com/Emilio.Gallo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Icosahedral Abstract Figure" (https://sketchfab.com/3d-models/icosahedral-abstract-figure-16fa6fe9115f461289a3c5e8b7c7f64a) by Emilio.Gallo (https://sketchfab.com/Emilio.Gallo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
