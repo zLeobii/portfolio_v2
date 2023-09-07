@@ -2,8 +2,6 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import CanvasLoader from "../components/Loader";
-
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./planet/scene.gltf");
 
@@ -54,7 +52,7 @@ const HeroCanva = () => {
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense>
         <OrbitControls
           autoRotate
           enableZoom={false}

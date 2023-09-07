@@ -28,16 +28,23 @@ export default {
           h3: "32px",
           h4: "24px",
           h5: "18px",
-          p1: "20px",
-          p2: "16px",
-          p3: "14px",
+          p1: "25px",
+          p2: "20px",
+          p3: "16px",
         },
 
         fontWeight: {
           pr: "400",
-          pb: "500",
+          pb: "700",
           h: "600",
           h1: "700",
+        },
+
+        backgroundImage: {
+          "hero" : "url(../src/assets/bg/HERO.png)",
+          "blue" : "url(../src/assets/bg/BLUE.png)",
+          "black" : "url(../src/assets/bg/BLACK.png)",
+          "mixed" : "url(../src/assets/bg/MIXED.png)",
         }
       },
   },
