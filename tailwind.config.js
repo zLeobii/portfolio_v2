@@ -42,8 +42,8 @@ export default {
 
         backgroundImage: {
           "hero" : "url(../src/assets/bg/HERO.png)",
-          "blue" : "url(../src/assets/bg/BLUE.png)",
-          "black" : "url(../src/assets/bg/BLACK.png)",
+          "bluee" : "url(../src/assets/bg/BLUE.png)",
+          "blackk" : "url(../src/assets/bg/BLACK.png)",
           "mixed" : "url(../src/assets/bg/MIXED.png)",
         }
       },

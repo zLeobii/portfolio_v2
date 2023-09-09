@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Test from "./components/Test";
 import { HashLoader } from 'react-spinners';
 
 import Navbar from './components/Navbar';
@@ -10,6 +9,8 @@ import Projects from './components/Projects';
 import Process from './components/Process';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+
+import CoolImage from "./assets/important/coolimage.png";
 
 function App() {
 
@@ -36,14 +37,15 @@ function App() {
       :
 
       <div>
-        <div className='h-[100dvh] bg-cover bg-no-repeat bg-hero object-contain'>
+        <div className='md:h-[100dvh] h-[900px] bg-cover bg-no-repeat bg-hero object-contain overflow-hidden'>
           <Navbar />
           <Hero />
         </div>
         
-        <div className='h-[100dvh] bg-cover bg-no-repeat bg-black object-contain'>
+        <div className='flex flex-col items-center justify-center h-auto bg-cover bg-no-repeat bg-black object-contain overflow-hidden pt-[80px] xl:pt-[120px] gap-[120px]'>
           <About />
           <OfferAndSkills />
+          <img src={CoolImage} alt="coolimage" className='w-[330px] h-[134.3px] md:w-[500px] md:h-[203.5px] lg:w-[950px] lg:h-[386.64px] xl:w-[1162px] xl:h-[472.93px]' />
         </div>
 
         <Projects />
