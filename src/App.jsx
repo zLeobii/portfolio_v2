@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { HashLoader } from 'react-spinners';
+import { Parallax } from 'react-parallax';
 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -11,6 +12,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 import CoolImage from "./assets/important/coolimage.png";
+import Mixed from "./assets/bg/MIXED.png";
 
 function App() {
 
@@ -42,7 +44,7 @@ function App() {
           <Hero />
         </div>
         
-        <div className='flex flex-col items-center justify-center h-auto bg-cover bg-no-repeat bg-black object-contain overflow-hidden pt-[80px] xl:pt-[120px] gap-[120px]'>
+        <div className='flex flex-col items-center justify-center h-auto bg-cover bg-no-repeat bg-blackk object-contain overflow-hidden pt-[80px] xl:pt-[120px] gap-[120px]'>
           <About />
           <OfferAndSkills />
           <img src={CoolImage} alt="coolimage" className='w-[330px] h-[134.3px] md:w-[500px] md:h-[203.5px] lg:w-[950px] lg:h-[386.64px] xl:w-[1162px] xl:h-[472.93px]' />
@@ -50,9 +52,9 @@ function App() {
 
         <Projects />
 
-        <div>
+        <Parallax strength={800} bgImage={Mixed} className='bg-cover'>
           <Process />
-        </div>
+        </Parallax>
 
         <Contact />
 

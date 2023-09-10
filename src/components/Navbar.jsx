@@ -9,7 +9,7 @@ const Navbar = () => {
     let [open,setOpen]=useState(false);
 
     return (
-        <div className={`flex items-center justify-between bg-main2 bg-opacity-80 bg-clip-padding overflow-hidden w-[100dvw] fixed top-0 left-0 h-[78px] ${open ? 'max-md:h-[400px] ':'h-[78px]'}`}>
+        <div className={`z-10 flex items-center justify-between bg-main2 bg-opacity-80 bg-clip-padding overflow-hidden w-[100dvw] fixed top-0 left-0 h-[78px] ${open ? 'max-md:h-[400px] ':'h-[78px]'}`}>
             <div className={`flex pl-[50px] md:pl-[100px] items-center justify-start ${open ? 'max-md:hidden ':'h-[78px]'}`}>
                 <a href="https://leobaratieri.com" rel="noreferrer">
                     <img src={Logo} alt="logo" className="object-contain md:w-[60px] md:h-[60px] w-[50px] h-[50px]" />
