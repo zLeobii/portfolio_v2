@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { HashLoader } from 'react-spinners';
+import { PulseLoader } from 'react-spinners';
 import { Parallax } from 'react-parallax';
 
 import Navbar from './components/Navbar';
@@ -33,7 +33,7 @@ function App() {
       ?
 
       <div className='h-[100dvh] w-[100dvw] flex justify-center items-center'>
-          <HashLoader color="#1967B9"/>
+          <PulseLoader color="#1967B9"/>
       </div>
 
       :
