@@ -18,13 +18,13 @@ const Footer = () => {
                 <div className="flex gap-[30px] flex-col items-center self-stretch">
                     <a href="https://leobaratieri.com" rel="noreferrer"><img src={Logo} alt="logo" className="w-[60px] h-[60px]" /></a>
                     <div className="flex justify-center items-center gap-[45px]">
-                        <Link to="home" spy={true} offset={0} duration={1000}>
+                        <Link to="home" spy={true} offset={0} duration={1500}>
                             <h3 className="font-redhatdisplay font-pb text-p3 text-neutral8 text-center" class="link">Home</h3>
                         </Link>
-                        <Link to="about" spy={true} offset={0} duration={1000}>
+                        <Link to="about" spy={true} offset={-200} duration={1500}>
                             <h3 className="font-redhatdisplay font-pb text-p3 text-neutral8 text-center" class="link">About</h3>
                         </Link>
-                        <Link to="projects" spy={true} offset={0} duration={1000}>
+                        <Link to="projects" spy={true} offset={-70} duration={1000}>
                             <h3 className="font-redhatdisplay font-pb text-p3 text-neutral8 text-center" class="link">Projects</h3>
                         </Link>
                     </div>

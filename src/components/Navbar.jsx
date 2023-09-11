@@ -24,13 +24,13 @@ const Navbar = () => {
                 <Link to="home" spy={true} offset={0} duration={1000}>
                     <h3 className="font-redhatdisplay font-pb text-p2 text-neutral8 text-center" class="link">Home</h3>
                 </Link>
-                <Link to="about" spy={true} offset={0} duration={1000}>
+                <Link to="about" spy={true} offset={-200} duration={1000}>
                     <h3 className="font-redhatdisplay font-pb text-p2 text-neutral8 text-center" class="link">About</h3>
                 </Link>
-                <Link to="projects" spy={true} offset={0} duration={1000}>
+                <Link to="projects" spy={true} offset={-70} duration={1000}>
                     <h3 className="font-redhatdisplay font-pb text-p2 text-neutral8 text-center" class="link">Projects</h3>
                 </Link>
-                <Link to="contact" spy={true} offset={0} duration={1000} className="group">
+                <Link to="contact" spy={true} offset={-100} duration={1500} className="group">
                     <div className="w-[143px] transition duration-250 ease-out md:group-hover:bg-main3 group-hover:border-main3 flex py-[11px] px-[15px] items-center rounded-[10px] border-[0.5px] border-solid border-neutral8 bg-main1 cursor-pointer justify-center">
                         <h3 className="text-center transition duration-250 ease-out md:group-hover:text-neutral1 font-redhatdisplay font-pb text-p2 text-neutral8">Contact Me</h3>
                     </div>

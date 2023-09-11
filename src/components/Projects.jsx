@@ -53,7 +53,7 @@ const Projects = () => {
 
 
 
-                <div className="flex flex-col items-start gap-[150px]">
+                {/* <div className="flex flex-col items-start gap-[150px]">
                     <div className="flex flex-col xl:flex-row justify-center items-center gap-[30px] xl:gap-[197px] group">
                         <div className="xl:grid hidden w-[330px] h-[167px] md:w-[500px] md:h-[273px] xl:w-[515px] xl:h-[300px] overflow-hidden border-neutral1 border-[2.5px]"><img src={summereth} alt="summereth" className="bg-top object-contain xl:transition ease-in duration-300 transform xl:group-hover:scale-110 xl:group-hover:translate-y-20" /></div>
                         <div className="flex flex-col items-center gap-[10px] xl:gap-[50px] xl:w-[447px]">
@@ -85,7 +85,7 @@ const Projects = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
 
